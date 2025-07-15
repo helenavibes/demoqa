@@ -22,18 +22,3 @@ class DemoQA(BasePage):
             return True
         except NoSuchElementException:
             return False
-# class DemoQA(BasePage):
-#
-#     def __init__(self, driver):
-#         self.base_url = 'https://demoqa.com/'
-#         super().__init__(driver,self.base_url)
-#
-#         self.icon = WebElement(driver,'#app > header > a')
-#         self.btn_elements = WebElement(driver,'div.card:nth-child(1)')
-#
-#     def exist(self):
-#         try:
-#             self.find_element()
-#             return True
-#         except NoSuchElementException:
-#             return False
