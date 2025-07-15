@@ -23,6 +23,3 @@ class WebElement:
 
     def get_text(self):
         return self.find_element().text
-
-    # def find_element(self):
-    #     return self.driver.find_element(By.CSS_SELECTOR, self.locator)
